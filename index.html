@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Data user</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_content">
+            <h1>Data base for users</h1>
+            <input type="text" class="add_user" id="input_user" placeholder="Add user...">
+           <button class="btn_add_user" id="add_user">Add user</button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="list_section">
+            <div class="buttons_sort">
+                <button class="btn_sort" id="sortById">sorting by id</button>
+                <button class="btn_sort" id="sortByAlph">sorting by alphabetical</button>
+                <div class="list_user">
+                    <ul id="user_list"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./js/script.js"></script>
+</html>

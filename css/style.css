@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #061668;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+header .header_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #D9D9D9;
+  height: 120px;
+  width: 420px;
+  border-radius: 44px;
+}
+header .header_content h1 {
+  color: #000000;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 25px;
+  font-family: IBM Plex Mono;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+  width: 296px;
+}
+header .header_content .add_user {
+  background-color: #635050;
+  height: 30px;
+  width: 265px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+}
+header .header_content .add_user::-moz-placeholder {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 15px;
+  font-family: IBM Plex Mono;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+  width: 159px;
+  text-align: center;
+}
+header .header_content .add_user::placeholder {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 15px;
+  font-family: IBM Plex Mono;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+  width: 159px;
+  text-align: center;
+}
+header .header_content .btn_add_user {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+header .header_content .btn_add_user:hover {
+  background-color: #45a049;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section .btn_sort {
+  background-color: #d9d9d9;
+  height: 46px;
+  width: 207px;
+  border-radius: 30px;
+  color: #000000;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 13px;
+  font-family: IBM Plex Mono;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+  width: 156px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+section .btn_sort:active {
+  background-color: #b3b3b3;
+}
+section .list_user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background-color: #d9d9d9;
+  height: 400px;
+  width: 300px;
+  border-radius: 50px;
+  margin: 5%;
+  overflow-y: auto;
+}/*# sourceMappingURL=style.css.map */
